@@ -15,16 +15,10 @@ function typeWriter() {
   
 }
 
-
-
-
 var i = 0;
 var image = document.getElementById("sine");
 var bg = document.getElementById("dynamic");
 var interval = 0;
-
-
-
 
 window.addEventListener('scroll',function(){
 
