@@ -17,8 +17,15 @@ p{
     
 }
 
-#sine{
+.main{
 
+
+    margin-bottom: 250px;
+}
+
+
+#sine{
+    padding-top: 50px;
     position: sticky;
     top: 5rem;
     
