@@ -1,5 +1,6 @@
 var i = 0;
 var txt = 'Márton Juhász | A visual diary.'; /* The text */
+var txt2 = 'About me.'; /* The text */
 var speed = 100; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
@@ -14,6 +15,25 @@ function typeWriter() {
   }
   
 }
+
+
+function typeWriter2() {
+  if (i < txt2.length) {
+    document.getElementById("demo").innerHTML += txt2.charAt(i);
+    i++;
+    setTimeout(typeWriter2, speed);
+  }
+  else{
+
+    $("#base").fadeIn(3000);
+  }
+  
+}
+
+
+
+
+
 
 var i = 0;
 var image = document.getElementById("sine");
