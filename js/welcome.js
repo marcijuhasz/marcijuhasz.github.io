@@ -15,8 +15,6 @@ function typeWriter() {
   }
   
 }
-
-
 function typeWriter2() {
   if (i < txt2.length) {
     document.getElementById("demo").innerHTML += txt2.charAt(i);
@@ -29,11 +27,6 @@ function typeWriter2() {
   }
   
 }
-
-
-
-
-
 
 var i = 0;
 var image = document.getElementById("sine");
@@ -49,7 +42,6 @@ window.addEventListener('scroll',function(){
 
   }
 })
-
 
 function SineWave(){
 

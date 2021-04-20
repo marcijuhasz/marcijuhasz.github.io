@@ -54,18 +54,20 @@ p{
     height: 200vh;
 }
 
-.end{
+
+#footer{
 
     text-align: center;
-    
+
 }
+
+
 #contact{
     margin-top: 30px;
     margin-bottom: 30px;
-    text-align: center;
+    
     
 }
-
 
 #about{
     line-height: 1.4;
@@ -112,8 +114,6 @@ p{
 
     
 }
-
-
 @media only screen and (min-width: 1280px) {
 
     body{
@@ -127,7 +127,6 @@ p{
 
     
 }
-
 @media only screen and (min-width: 1440px) {
 
     body{
@@ -141,7 +140,6 @@ p{
 
     
 }
-
 @media only screen and (min-width: 1600px) {
 
     body{
@@ -155,16 +153,6 @@ p{
 
     
 }
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 1800px) {
 
     body{
